@@ -8,7 +8,7 @@ if(square == number1) // если равно
 {
 Console.Write($"Число: {number1} является квадратом: {number2}! ");
 }
-if(square != number1) // если не равно
+else
 {
 Console.Write($"Число: {number1} НЕ является квадратом: {number2}! ");
 }
