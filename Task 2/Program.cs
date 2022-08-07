@@ -7,11 +7,11 @@ if(number1 > number2)
 {
 Console.Write($"максимальное число {number1} ");
 }
-if(number1 < number2)
+else if(number1 < number2)
 {
 Console.Write($"Mаксимальное число {number2} ");
 }
-if(number1 == number2)
+else
 {
 Console.Write("Числа равны! ");
 }
